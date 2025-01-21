@@ -91,7 +91,10 @@ const CardDetail = () => {
                                 </div>
                             </div>
                             <div className="mt-4 d-flex align-items-center">
-                                <Form.Select style={{ width: "100px", marginRight: "15px" }}>
+                                <span>
+                                    <strong>Quantity : </strong>
+                                </span>
+                                <Form.Select style={{ marginLeft: '10px', width: "100px", marginRight: "15px" }}>
                                     {[1, 2, 3, 4, 5].map((qty) => (
                                         <option key={qty} value={qty}>
                                             {qty}
