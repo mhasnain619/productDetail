@@ -6,6 +6,35 @@ h3 {
     text-transform: capitalize !important;
 }
 
+.addtoCartBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeButton {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.2s ease;
+}
+
+.sizeButton:hover {
+    background-color: #696868;
+    color: #f2f2f2;
+    transform: scale(1.1);
+}
+
+h6 {
+    /* background-color: #f7f7f7; */
+    text-align: start;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #666666;
+}
+
 @media only screen and (max-width: 600px) {
     .cardDetail {
         width: 100%;
