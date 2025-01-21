@@ -43,7 +43,7 @@ const CardDetail = () => {
                                     />
                                 ))}
                                 <div className="mt-2">
-                                    <span>{details.rating.count}reviews</span>
+                                    <span>{details.rating.count} reviews</span>
                                 </div>
                             </div>
                             <div>
