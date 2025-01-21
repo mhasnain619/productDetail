@@ -1,0 +1,14 @@
+.cardDetail {
+    width: 80%;
+}
+
+h3 {
+    text-transform: capitalize !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardDetail {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
