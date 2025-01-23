@@ -90,6 +90,7 @@ const CardDetail = () => {
                                     ))}
                                 </div>
                             </div>
+                            <hr />
                             <div className="mt-4 d-flex align-items-center">
                                 <span>
                                     <strong>Quantity : </strong>
