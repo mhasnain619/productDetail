@@ -13,7 +13,7 @@ h3 {
 
 .sizeButton {
     border: none;
-    padding: 8px 15px;
+    padding: 5px 15px;
     border-radius: 5px;
     margin: 5px;
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.2s ease;
